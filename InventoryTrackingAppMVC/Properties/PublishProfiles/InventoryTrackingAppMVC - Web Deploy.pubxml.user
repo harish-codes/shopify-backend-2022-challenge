@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAx+6A+G+ZC0uMiziswN7N9AAAAAACAAAAAAAQZgAAAAEAACAAAACN5YumTz9ejQgv4a8VL/RM0PMAlsXbUHeKdm7Fn6EN2wAAAAAOgAAAAAIAACAAAAC0jhZjy9R11tY14drQUZvFtuvGNUOwlWWwKVYgSQba5IAAAABpjLvF3NLwiDrdFD4fdcfO1d5ySOKCtsip5jBFf1zllaqqu6a7Ar0HdikEDRDgbduJCoNBILoZfdLB9L+7wzFwnE18jD0nFTMRVJLT1PDBwC097C3F8lrbZH3J4Y+3Iy/2NDGuS4E+m6XysK1+HzXupcCdc11NEQxKJsmS9t5NfUAAAACD0LX7MKME85fFv+X5BynrbS3UaEKUzbrW5F0uMg+X70o4LyS+e6NZVTeNv6169wtPVj5qvCqfgr8PL1N0u6Oy</EncryptedPassword>
+    <History>True|2022-01-20T02:02:55.5826905Z;True|2022-01-19T20:55:59.5542968-05:00;False|2022-01-19T20:51:26.5737877-05:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:shopify-backend-challenge-server.database.windows.net,1433%3bInitial Catalog=shopify-backend-challenge-inventory_db%3bPersist Security Info=False%3bUser ID=admin-sql%3bPassword=Hershey4Life%24acc%3f%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="InventoryTrackingAppMVC.Data.ApplicationDbContext">
+      <Value>Server=tcp:shopify-backend-challenge-server.database.windows.net,1433%3bInitial Catalog=shopify-backend-challenge-inventory_db%3bPersist Security Info=False%3bUser ID=admin-sql%3bPassword=Hershey4Life%24acc%3f%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

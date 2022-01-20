@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="InventoryTrackingAppMVC" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Harish\ Nagallapati\\source\\repos\\InventoryTrackingAppMVC\\InventoryTrackingAppMVC\\obj\\Release\\net6\.0\\win-x86\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="InventoryTrackingAppMVC.Data.ApplicationDbContext" description="" value="Server=tcp:shopify-backend-challenge-server.database.windows.net,1433;Initial Catalog=shopify-backend-challenge-inventory_db;Persist Security Info=False;User ID=admin-sql;Password=Hershey4Life$acc?;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\Harish\ Nagallapati\\source\\repos\\InventoryTrackingAppMVC\\InventoryTrackingAppMVC\\obj\\Release\\net6\.0\\win-x86\\PubTmp\\EFSQLScripts\\InventoryTrackingAppMVC\.Data\.ApplicationDbContext\.sql$" />
+  </parameter>
+</parameters>
